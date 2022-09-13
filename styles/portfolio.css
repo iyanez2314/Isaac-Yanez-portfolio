@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,400;1,200;1,300&family=Quicksand:wght@300;400;500;600&family=Roboto:wght@500;700&display=swap');
+
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.arrow-container{
+    padding-bottom: 20px;
+    display: inline-flex;
+    justify-content: start;
+}
+
+.project-title-container{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.project-title{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.education-section{
+    background-color: #D6EEFF;
+}
+
+.education-title{
+    padding-bottom: 60px;
+}
+
+.image-container{
+    padding-bottom: 20px;
+}
+
+a{
+    color: black;
+}
+
+.button-container{
+    padding-bottom: 20px;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.backup-container{
+    display: flex;
+    justify-content: end;
+}
+
+   
+
+button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 12px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   
+   button:hover {
+    border: 1px solid white;
+   }
+   
+   button:active {
+    box-shadow: 4px 4px 12px #c5c5c5,
+                -4px -4px 12px #ffffff;
+   }
+
+
+   @media screen and (max-width: 1023px) {
+       .lottie-container{
+           display: flex;
+           justify-content: center;
+       }
+   }
